@@ -1,0 +1,7 @@
+# Blueprint do Render: site estático, sem etapa de build.
+services:
+  - type: web
+    name: agiliza-saude
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
